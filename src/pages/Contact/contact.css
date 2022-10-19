@@ -1,0 +1,24 @@
+.contact-container{
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.contact-content{
+    width: 100%;
+}
+
+.contact-info{
+    gap: 50px;
+}
+.contact-coordonnee{
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.contact-input input{
+    outline: none;
+    border: none;
+    border-bottom: 3px solid black;
+}

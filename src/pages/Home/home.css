@@ -1,0 +1,58 @@
+.home-container{
+    width: 90%;
+    gap: 10px;
+}
+
+.home-presentation{
+    width: 100%;
+    min-height: 85vh;
+    background-image: url("../../asset/fond.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 50px;
+}
+
+.home-produit-info{
+    gap: 5px;
+}
+.home-produit-info h1{
+    font-size: 75px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 7px;
+    color: white;
+}
+.home-produit-info h2{
+    font-weight: 400;
+    color: white;
+}
+
+.home-presentation button{
+    background-color: black;
+    color: white;
+    padding: 15px 10px; 
+    min-width: 12%;
+    border: none;
+    transition: 0.5s;
+}
+.home-presentation button:hover{
+    background-color: #F2E0C0;
+}
+
+.produit-container{
+    width: 100%;
+    min-height: 400px;
+    gap: 25px;
+    background-color: white;
+}
+.produit-container h1{
+    font-weight: 300;
+}
+.produit-container p{
+    width: 40%;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 15px;
+}
