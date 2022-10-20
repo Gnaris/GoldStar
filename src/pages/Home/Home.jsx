@@ -1,6 +1,6 @@
 import React from 'react';
-import Contact from '../Contact/Contact';
-import Shop from '../Shop/Shop';
+import Contact from '../../components/Contact/Contact';
+import Shop from '../../components/Shop/Shop';
 import "./home.css";
 
 const Home = () => {

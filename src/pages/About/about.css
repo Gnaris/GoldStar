@@ -1,0 +1,25 @@
+.about-container{
+    width: 90%;
+    gap: 200px;
+}
+
+.about-content{
+    position: relative;
+    width: 100%;
+    background-color: white;
+    gap: 25px;
+    font-weight: 300;
+    padding-top: 100px;
+}
+.about-content h1{
+    font-size: 25px;
+    font-weight: 400;
+}
+.about-content ul li{
+    list-style-type: disc;
+    font-weight: 300;
+}
+
+.about-content img{
+    transform: translateY(100px);
+}

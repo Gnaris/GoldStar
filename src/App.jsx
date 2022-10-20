@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Navigate, Routes, Route } from 'react-router-dom';
 import Home from "./pages/Home/Home";
-import About from "./pages/Home/Home";
-import Shop from "./pages/Home/Home";
-import Contact from "./pages/Home/Home";
+import About from "./pages/About/About";
 import Navigation from './components/Navigation/Navigation';
 import "./App.css";
+import Footer from './components/Footer/Footer';
+import Product from './pages/Product/Product';
 
 const App = () => {
   return (
@@ -15,8 +15,10 @@ const App = () => {
         <Routes>
           <Route path="/*" element={<Navigate to={"/home"}/>}/>
           <Route path="/home" element={<Home/>}/>
-          <Route path="/about" element={<Shop/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/produit" element={<Product/>}/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
