@@ -6,17 +6,17 @@ const Product = createSlice({
     name : "produit",
     initialState : {
         product : [
-            {img : Balle, name : "Balle Gst", price : "1.00€", comment : "Magnifique"},
-            {img : Balle, name : "Balle Gst", price : "1.00€", comment : "Magnifique"},
+            {id : 0, img : Balle, name : "Balle Gst", price : "1.00€", comment : "Magnifique"}
         ],
-        clicked : {img : Balle, name : "Balle Gst", price : "1.00€", comment : "Magnifique"},
+        quantity : null,
     },
     reducers : {
-        setClicked(state, {payload}){
-            state.product = {payload}
+        setQuantities(state, {payload})
+        {
+            state.quantity = payload
         }
     }
 })
 
 export default Product.reducer;
-export const {setClicked} = Product.actions
+export const {setQuantities} = Product.actions
